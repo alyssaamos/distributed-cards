@@ -1,0 +1,87 @@
+/*
+    typefaces: Georgia, Denk One
+    Line-heights: 1.5
+    Colours: #fff, #f5f2f0, #ede3db, #623b0c, #000
+    Margins: 1.5rem
+    Paddings: .5em .75em .6em, 1rem
+    Gaps: 1rem
+    Border-thicknesses: 2px
+    Corner-radii: 8px
+*/
+
+html {
+  background-color: #f5f2f0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #623b0c;
+  font-family: "Denk One";
+  margin-bottom: 1.125rem;
+  margin-top: .2rem;
+}
+
+h2 {
+  color: #623b0c;
+  font-family: "Denk One";
+  margin-top: .5rem;
+  margin-bottom: 1.35rem;
+}
+
+ol {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+  padding-bottom: .5em;
+}
+
+main {
+  background-color: #f5f2f0;
+  padding: 1rem 1rem 0;
+}
+
+ol li {
+  background-color: #ede3db;
+  list-style-type: none;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  padding: .75em 1em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  font-family: Georgia;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: .5em;
+}
+
+ol li a {
+  color: #fff;
+  background-color: #623b0c;
+  font-family: Georgia;
+  border-radius: 8px;
+  padding: .5em .75em .6em;
+}
+
+a:link {
+  text-decoration: none;
+}
